@@ -5,7 +5,7 @@ using namespace std;
 class InsertionSortAdvance {
 public:
     template<typename T>
-    void insertSort(vector<T> &arr) {
+    void insertionSort(vector<T> &arr) {
         int n = arr.size();
 
         for (int i = 1; i < n; ++i) {
@@ -21,7 +21,7 @@ public:
 
 //int main() {
 //    vector<int> arr{4, 6, 3, 2, 1};
-//    InsertionSortAdvance().insertSort(arr);
+//    InsertionSortAdvance().insertionSort(arr);
 //    for (int n : arr) {
 //        cout << n;
 //    }
